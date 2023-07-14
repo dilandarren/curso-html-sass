@@ -35,7 +35,39 @@
     </header>
 
     <main class="__contenedor">
-        <h2 class="__heading">Nombre Pagína</h2>
+        <div class="producto">
+            <img class="producto__imagen" src="img/guitarra_04.jpg" alt="guitara">
+
+            <div class="producto__contenido">
+                <h3 class="producto__nombre">VAI</h3>
+                <p class="producto__descripcion">Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Aut iusto quae consequatur dolor eum minus.</p>
+                <p class="producto__precio">$209</p>
+                
+                <form class="producto__formulario">
+                    <label class="producto__label">Cantidad</label>
+                    <select class="producto__cantidad">
+                        <option value="">-- Selecciones --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <input
+                        type="submit"
+                        class="producto__agregar-carrito"
+                        value="Agregar al Carrito"
+                    >
+                </form>
+            </div>
+        </div><!--./producto-->
     </main>
 
     <footer class="footer">
